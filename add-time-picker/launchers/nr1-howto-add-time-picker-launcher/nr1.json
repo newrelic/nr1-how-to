@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "nr1-howto-add-time-picker-launcher",
+    "description": "Learn how to add the timepicker to your application",
+    "displayName": "Add Time Picker",
+    "rootNerdletId": "nr1-howto-add-time-picker-nerdlet"
+}
