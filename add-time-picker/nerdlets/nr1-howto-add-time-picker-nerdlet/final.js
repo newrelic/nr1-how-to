@@ -15,7 +15,7 @@ import { timeRangeToNrql } from '@newrelic/nr1-community';
 export default class Nr1HowtoAddTimePicker extends React.Component {
     constructor(props){
         super(props)
-        this.accountId = 1;
+        this.accountId = '<REPLACE WITH YOUR ACCOUNT ID>';
     }
     render() {
         const avgResTime = `SELECT average(duration) FROM Transaction FACET appName TIMESERIES AUTO `;
