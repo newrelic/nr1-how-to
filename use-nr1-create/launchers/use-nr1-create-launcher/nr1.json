@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "use-nr1-create-launcher",
+    "description": "Learn how to use nr1 create to generate application artifacts",
+    "displayName": "Use nr1 create",
+    "rootNerdletId": "use-nr1-create"
+}

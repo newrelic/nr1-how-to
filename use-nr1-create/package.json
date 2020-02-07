@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "use-nr1-create",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "nr1 nerdpack:serve",
+    "test": "exit 0"
+  },
+  "nr1": {
+    "uuid": "0ee5a2ba-3369-415e-9f18-7dfedb937a1f"
+  },
+  "dependencies": {
+    "@newrelic/nr1-community": "^1.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie < 11",
+    "not dead"
+  ]
+}
