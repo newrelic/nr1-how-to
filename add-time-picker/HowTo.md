@@ -19,7 +19,7 @@ Before moving forward, let's make sure we are getting data from the right New Re
 
 In your text editor, you want to update the line below to include your account id.
 
-```
+```js
 this.accountId = <REPLACE ME WITH YOUR ACCOUNT ID>;
 ```
 
@@ -38,11 +38,11 @@ New Relic link: https://one.newrelic.com/?nerdpacks=local
 
 Now on the New Relic homepage, you should have a new launcher to the how-to example.
 
-[LAUNCHER IMAGE]
+![How to launcher image](https://github.com/newrelic/nr1-how-to/blob/master/add-time-picker/screenshots/homepage-launcher.png)
 
 After launching the **'Add Time Picker'** application, you will see a dashboard that gives an overview of the transactions in your New Relic account.
 
-[HOW TO SCREENSHOT]
+![Transaction Overview Application](https://github.com/newrelic/nr1-how-to/blob/master/add-time-picker/screenshots/add-timepicker.png)
 
 ## Adding Time Picker
 
@@ -60,7 +60,7 @@ Once we've had a chance to visit the developer website and review the PlatformSt
 
 Add the following import statement to your `/nerdlets/nr1-howto-add-time-picker-nerdlet` index.js.
 
-```
+```js
 import { PlatformStateContext } from ‘nr1’;
 ```
 
@@ -70,7 +70,7 @@ _It sounds like a lot, but it's not that bad. Promise :)_
 
 We will start by wrapping all the code within the current return with the `PlatformStateContext` component.
 
-```
+```js
 <PlatformStateContext.Consumer>
     {(platformState) => {
 return (
@@ -82,7 +82,7 @@ return (
 
 Making sure to add the current application code as the return of the PlatformState function call. Our return statement should now look like this:
 
-```
+```js
 return (
     <PlatformStateContext.Consumer>
         {(PlatformState) => {
@@ -137,14 +137,14 @@ Now that we have our platform state passed into our application, let's take a qu
 
 Add the following code the PlatformState return statement just before the opening tag for the `<Grid>` component.
 
-```
+```js
 /* Taking a peek at the PlatformState */
 console.log(PlatformState);
 ```
 
 If you take a look at your browser console, you should see something similar to below:
 
-[BROWSER CONSOLE IMAGE]
+![Browser console image](https://github.com/newrelic/nr1-how-to/blob/master/add-time-picker/screenshots/console.png)
 
 ## Adding time data to your queries
 
@@ -152,13 +152,13 @@ In your console, you should see some data from the New Relic platform state, but
 
 We'll start by importing another component. We're going to use the timeRangeToNrql utility method from the nr1 community library.  You can get more details on the nr1 community library from our GitHub repo. https://github.com/newrelic/nr1-community. Import the `timeRangeToNrql` method using the line of code below.
 
-```
+```js
 import { timeRangeToNrql } from '@newrelic/nr1-community';
 ```
 
 We will pass the `PlatformState` to the `timeRangeToNrql` helper and save its output as our since statement for later use.
 
-```
+```js
 const since = timeRangeToNrql(PlatformState);
 console.log(since);
 ```
@@ -169,14 +169,14 @@ After creating the since variable, go through the code in the `PlatformStateCont
 
 Your charts to should look similar to the `TableChart` below:
 
-```
+```js
 <TableChart fullWidth accountId={this.accountId} query={trxOverview+since} />
 ```
 
 After we've updated all of the chart components, the final index.js file should have code similar to the code below. This completed sample code is in your nerdlet final.js.
 
 
-```
+```js
 import React from 'react';
 import {
   PlatformStateContext,
