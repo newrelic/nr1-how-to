@@ -7,7 +7,7 @@ __Products:__ APM
 ## Getting Started
 For this how-to example, we will be adding access to the time picker in New Relic One to our transaction overview application and adding the selected time to the queries used in the application's chart components.
 
-To get started, we will clone the example applications from our how-to GitHub repo: https://github.com/newrelic/nr1-how-to
+To get started, we will clone the example applications from our how-to [GitHub](https://github.com/newrelic/nr1-how-to) repo:
 
 Next, we will use the NR1 CLI to update the application UUID and run our application locally. In the terminal, let's change into the `/nr1-howto/add-time-picker` directory.
 
@@ -34,7 +34,7 @@ nr1 nerdpack:serve
 
 Once our app is successfully served, in your terminal, you'll be provided with a URL to access New Relic One and see your running application.
 
-New Relic link: https://one.newrelic.com/?nerdpacks=local
+New Relic One link: https://one.newrelic.com/?nerdpacks=local
 
 Now on the New Relic homepage, you should have a new launcher to the how-to example.
 
@@ -54,7 +54,7 @@ In the steps going forward, we will add the time picker to our example applicati
 
 ## Adding the PlatformStateContext Component
 
-The first step in adding the time picker is to import the PlatformStateContext Component. We can find the component and details on how to import it on the APIs and components page on https://developer.newrelic.com/client-side-sdk/index.html#apis/PlatformStateContext.
+The first step in adding the time picker is to import the PlatformStateContext Component. We can find the component and details on how to import it on the APIs and components page on [https://developer.newrelic.com](https://developer.newrelic.com/client-side-sdk/index.html#apis/PlatformStateContext).
 
 Once we've had a chance to visit the developer website and review the PlatformStateComponent, the first step is to import the component into our application's index.js file.
 
@@ -150,7 +150,7 @@ If you take a look at your browser console, you should see something similar to 
 
 In your console, you should see some data from the New Relic platform state, but now we want to take advantage of the timeRange data to update the charts in our Transaction overview app.
 
-We'll start by importing another component. We're going to use the timeRangeToNrql utility method from the nr1 community library.  You can get more details on the nr1 community library from our GitHub repo. https://github.com/newrelic/nr1-community. Import the `timeRangeToNrql` method using the line of code below.
+We'll start by importing another component. We're going to use the timeRangeToNrql utility method from the nr1 community library.  You can get more details on the nr1 community library from our [GitHub repo](https://github.com/newrelic/nr1-community). Import the `timeRangeToNrql` method using the line of code below.
 
 ```js
 import { timeRangeToNrql } from '@newrelic/nr1-community';
@@ -261,6 +261,6 @@ export default class Nr1HowtoAddTimePicker extends React.Component {
 
 ## How to add the time picker recap
 
-Wrapping up this how-to example, if you've made it this far, you've successfully implemented the time picker into your application, by importing the PlatformStateContext component and accessing its timePicker data object. To continue your learning, take a look at our self-paced workshop on Github. https://github.com/newrelic/nr1-workshop
+Wrapping up this how-to example, if you've made it this far, you've successfully implemented the time picker into your application, by importing the PlatformStateContext component and accessing its timePicker data object. To continue your learning, take a look at our [self-paced workshop on Github](https://github.com/newrelic/nr1-workshop).
 
 
