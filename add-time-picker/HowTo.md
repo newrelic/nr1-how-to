@@ -167,7 +167,7 @@ If you were to look in your console, you'd see the helper method takes your `Pla
 
 After creating the since variable, go through the code in the `PlatformStateContext` return statement and concatenate the since variable to the existing chart component queries.
 
-Your charts to should look similar to the `TableChart`xs below:
+Your charts to should look similar to the `TableChart` below:
 
 ```
 <TableChart fullWidth accountId={this.accountId} query={trxOverview+since} />
@@ -259,7 +259,7 @@ export default class Nr1HowtoAddTimePicker extends React.Component {
 }
 ```
 
-How to add the time picker recap
+## How to add the time picker recap
 
 Wrapping up this how-to example, if you've made it this far, you've successfully implemented the time picker into your application, by importing the PlatformStateContext component and accessing its timePicker data object. To continue your learning, take a look at our self-paced workshop on Github. https://github.com/newrelic/nr1-workshop
 
