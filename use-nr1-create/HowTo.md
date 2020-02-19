@@ -24,7 +24,7 @@ In your terminal, run the following command:
 
 `nr1 create`
 
-[TERMINAL IMAGE]
+![TERMINAL IMAGE](https://github.com/newrelic/nr1-how-to/blob/master/use-nr1-create/screenshots/nr1-create.png)
 
 A prompt to select the type of component will display. Select the __'nerdpack'__ component type. When asked to name the new Nerdpack, we will be calling the package __'nested-nerdpack.'__
 
@@ -42,11 +42,11 @@ As an example, let's start a local server and take a look at our 'Use nr1 create
 
 If you take a look at the homepage of New Relic One, you'll see the launcher for how to use nr1 create.
 
-[LAUNCHER IMAGE]
+![LAUNCHER IMAGE](https://github.com/newrelic/nr1-how-to/blob/master/use-nr1-create/screenshots/nr1-create-launcher.png)
 
 Click on the __'use nr1 create'__ launcher. You should get a 404 error page telling you the linked Nerdlet was not found.
 
-[404 IMAGE]
+![404 IMAGE](https://github.com/newrelic/nr1-how-to/blob/master/use-nr1-create/screenshots/404-error.png)
 
 We're getting this 404 error because the __'nr1 create'__ app was cloned without a Nerdlet. We now have a perfect situation for creating a Nerdlet using the nr1 CLI.
 
@@ -54,7 +54,7 @@ In your terminal, run the following command, `nr1 create` and when you see the p
 
 If you go back to the New Relic One homepage and select the 'How to' launcher, you should now see your new Nerdlet.
 
-[HOW TO NERDLET IMAGE]
+![HOW TO NERDLET IMAGE](https://github.com/newrelic/nr1-how-to/blob/master/use-nr1-create/screenshots/nerdlet.png)
 
 ## Adding a launcher to an application
 
@@ -64,7 +64,7 @@ In your terminal, run the `nr1 create` command and select __'launcher'__ when pr
 
 When creating a new launcher, you will need to connect your launcher to a Nerdlet manually. Navigate to into the ./nr1-howto/launchers/empty-state directory and open the __'nr1.json'__ file. In the config object, we want to update the __'rootNerdletId'__, passing it the id of the empty state Nerdlet.
 
-[NR1 JSON IMAGE]
+![NR1 JSON IMAGE](https://github.com/newrelic/nr1-how-to/blob/master/use-nr1-create/screenshots/launcher-nr1-json.png)
 
 Update your config object to match below:
 
@@ -79,7 +79,7 @@ Update your config object to match below:
 ```
 If you go back to the New Relic One homepage and select the 'Empty Launcher' you should be taken into the empty-state Nerdlet and have successfully created a new launcher.
 
-[EMPTY NERDLET IMAGE]
+![EMPTY NERDLET IMAGE](https://github.com/newrelic/nr1-how-to/blob/master/use-nr1-create/screenshots/tada.png)
 
 ## You are Now Complete!
 
