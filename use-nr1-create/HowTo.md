@@ -1,6 +1,6 @@
 # How To: Use nr1 create commands
-Difficulty Level: Beginner
-Products: NA
+__Difficulty Level:__ Beginner
+__Products:__ NA
 
 ## Getting Started
 For this how-to example, we are going to be reviewing how to use the nr1 CLI to create commands to generate artifacts for your New Relic applications. There are instances when you need to use the CLI to create an artifact; we will be covering how to create those various artifacts, and when you need to generate them.
