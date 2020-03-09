@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "use-nerdgraph-launcher",
+    "displayName": "Use Nerdgraph",
+    "description": "Launch the how to NerdGraph nr1 component",
+    "rootNerdletId": "use-nerdgraph-nerdlet"
+}
