@@ -6,9 +6,6 @@
     "start": "nr1 nerdpack:serve",
     "test": "exit 0"
   },
-  "nr1": {
-    "uuid": "0ee5a2ba-3369-415e-9f18-7dfedb937a1f"
-  },
   "dependencies": {
     "@newrelic/nr1-community": "^1.0.1",
     "prop-types": "^15.6.2",
