@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "understand-nr1-json-launcher",
+    "displayName": "Understand nr1.json",
+    "description": "Understand the nr1.json file",
+    "rootNerdletId": "REPLACE ME WITH NERDLET ID"
+}
