@@ -1,0 +1,8 @@
+{
+    "schemaType": "NERDLET",
+    "id": "understand-url-state-nerdlet",
+    "displayName": "Understand Url State",
+    "description": "",
+    "entities": [{"domain": "BROWSER", "type": "APPLICATION"}, { "domain": "APM",  "type": "APPLICATION" }],
+    "actionCategory": "monitor"
+}

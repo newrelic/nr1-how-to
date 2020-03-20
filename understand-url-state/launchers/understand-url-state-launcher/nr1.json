@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "understand-url-state-launcher",
+    "displayName": "Understand Url State",
+    "description": "Describe me",
+    "rootNerdletId": "understand-url-state-nerdlet"
+}

@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "name": "understand-url-state",
+    "version": "1.19.4",
+    "scripts": {
+        "start": "nr1 nerdpack:serve",
+        "test": "exit 0"
+    },
+    "nr1": {
+        "uuid": "dabfdfb9-2e49-4775-ac23-4adbcfac51e4"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.2",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    },
+    "browserslist": [
+        "last 2 versions",
+        "not ie < 11",
+        "not dead"
+    ]
+}
