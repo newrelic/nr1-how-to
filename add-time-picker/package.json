@@ -20,5 +20,8 @@
     "last 2 versions",
     "not ie < 11",
     "not dead"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
 }
