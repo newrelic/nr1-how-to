@@ -185,6 +185,7 @@ Now the location object can be added to the `Button` component by using its `to`
 
 ```js
 <Button
+    to={location}
     type={Button.TYPE.PRIMARY}
     iconType={Button.ICON_TYPE.DOCUMENTS__DOCUMENTS__NOTES__A_ADD}
  >
