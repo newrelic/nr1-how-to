@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "name": "create-a-table",
+    "version": "1.19.4",
+    "scripts": {
+        "start": "nr1 nerdpack:serve",
+        "test": "exit 0"
+    },
+    "nr1": {
+        "uuid": "5077f62d-8bda-4453-b9ad-7121f13e97f0"
+    },
+    "dependencies": {
+        "@newrelic/nr1-community": "^1.1.1",
+        "prop-types": "^15.6.2",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    },
+    "browserslist": [
+        "last 2 versions",
+        "not ie < 11",
+        "not dead"
+    ]
+}

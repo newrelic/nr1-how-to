@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "create-a-table-launcher",
+    "displayName": "Create a table",
+    "description": "Describe me",
+    "rootNerdletId": "create-a-table-nerdlet"
+}
