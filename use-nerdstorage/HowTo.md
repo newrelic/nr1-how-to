@@ -45,7 +45,7 @@ Now that you have a better understanding of what is **NerdStorage**, you will be
 
 Go to the New Relic One homepage and click the launcher for **How To Use NerdStorage**. You will find an application that looks similar to below:
 
-![no-nerdstorage](https://github.com/newrelic/nr1-how-to/blob/master/use-nerdstorage/screenshots/no-storage.png)
+![no-nerdstorage](https://github.com/newrelic/nr1-how-to/blob/master/use-nerdstorage/screenshots/no-nerdstorage.png)
 
 Type something to add to **NerdStorage** and click the check button. Nothing happens... but why?
 
