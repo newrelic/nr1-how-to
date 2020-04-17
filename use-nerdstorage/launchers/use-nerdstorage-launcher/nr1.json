@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "use-nerdstorage-launcher",
+    "displayName": "Use Nerdstorage",
+    "description": "Describe me",
+    "rootNerdletId": "use-nerdstorage-nerdlet"
+}
