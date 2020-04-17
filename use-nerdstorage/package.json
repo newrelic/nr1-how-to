@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "name": "use-nerdstorage",
+    "version": "1.19.4",
+    "scripts": {
+        "start": "nr1 nerdpack:serve",
+        "test": "exit 0"
+    },
+    "nr1": {
+        "uuid": "b89bbec1-d469-41f3-a4bb-faead6545d0a"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.2",
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    },
+    "browserslist": [
+        "last 2 versions",
+        "not ie < 11",
+        "not dead"
+    ]
+}
