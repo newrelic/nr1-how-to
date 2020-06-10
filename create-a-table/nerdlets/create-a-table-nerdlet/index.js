@@ -9,8 +9,9 @@ import { timeRangeToNrql } from '@newrelic/nr1-community';
 export default class Nr1HowtoAddTimePicker extends React.Component {
     constructor(props){
         super(props)
-        this.accountId = REPLACE ME;
+        this.accountId = 1606862;
     }
+
 
     render() {
         const avgResTime = `SELECT average(duration) FROM Transaction FACET appName TIMESERIES AUTO `;
@@ -45,7 +46,6 @@ export default class Nr1HowtoAddTimePicker extends React.Component {
                             </GridItem>
                             <GridItem className="primary-content-container" columnSpan={12}>
                             {/*  Build table here. */}
-
                             </GridItem>
                         </Grid>
                     </>

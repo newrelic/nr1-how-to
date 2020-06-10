@@ -13,9 +13,18 @@ Next,  use the NR1 CLI to update the application UUID and run our app locally. I
 cd /nr1-howto/create-a-table
 ```
 
-Now, we want to update the UUID and serve our application.
+Before moving forward, let's make sure we are getting data from the right New Relic account.  If you open the sample code in your preferred text editor, open the `/create-a-table/nerdlets/create-a-table-nerdlet/index.js`.
+
+In your text editor, you want to update the line below to include your account id.
+
+```js
+this.accountId = REPLACE ME;
+```
+
+Now, we want install needed dependencies and update the UUID and serve our application.
 
 ```bash
+npm install
 nr1 nerdpack:uuid -gf
 nr1 nerdpack:serve
 ```
@@ -147,7 +156,7 @@ Take a look at the application running in New Relic One; you should have a scree
 For common cell patterns like users, metrics, or entity names, the nr1 library comes with pre-defined cells that can be in a `TableRow`.  Based on the data displayed in the table, an `EntityTableRowCell` and `MetricTableRowCell` are better options than the standard row used currently.  Add in the `EntityTableRowCell` and `MetricTableRowCell` to your import statement.
 
 ```js
-import { EntityTableRowCell, MetricTableRowCell } from 'nr1';
+import { EntityTitleTableRowCell, MetricTableRowCell } from 'nr1';
 ```
 
 Update the application table rows by replacing the function with the code below.
