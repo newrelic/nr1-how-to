@@ -11,7 +11,38 @@ export default class Nr1HowtoAddTimePicker extends React.Component {
         super(props)
         this.accountId = 1606862;
     }
-
+  
+    _getItems() {
+        return [
+            {
+                team: 'Backend',
+                company: 'Comtest',
+                name: 'Web Portal',
+                alertSeverity: 'CRITICAL',
+                reporting: true,
+                value: 0.9202394,
+                commit: '0f58ef',
+            },
+            {
+                team: 'Frontend',
+                company: 'Comtest',
+                name: 'Promo Service',
+                alertSeverity: 'CRITICAL',
+                reporting: true,
+                value: 0.9123988,
+                commit: 'e10fb3',
+            },
+            {
+                team: 'DB',
+                company: 'Comtest',
+                name: 'Tower Portland',
+                alertSeverity: 'CRITICAL',
+                reporting: true,
+                value: 0.82331,
+                commit: 'ff8b07a',
+            },
+        ];
+    }
 
     render() {
         const avgResTime = `SELECT average(duration) FROM Transaction FACET appName TIMESERIES AUTO `;
