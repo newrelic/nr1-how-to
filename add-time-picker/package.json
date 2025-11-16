@@ -22,6 +22,6 @@
     "not dead"
   ],
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^9.39.1"
   }
 }
